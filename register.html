@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+          SMART AGRICULTURE/UpfunkNow.
+     
+        </title>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    </head>
+    
+
+<body class="registerbody">
+
+
+    <table class="registernavigation"> 
+
+        <tr  > 
+          <th > <a href="home.html"> HOME </a></a></th>
+      
+      
+          <th><a href="about.html">ABOUT</a> </th>
+      
+          <th><a href="register.html">REGISTER </a></th>
+      
+          <th> <a href="contact.html">CONTACTS </a> </th>
+      
+        </tr>
+        
+        
+      
+    </table>
+
+
+    <div class="registerinstruction">
+
+        <h1> Registration Form.</h1>
+      
+        <p>
+      To be able to participate in the event, one has to fill in the registration form
+      so that he/she can secure his/her place in our event.
+      
+      As we mentioned earliar, our event has four different sessions
+         where in each sessions different activities will occur as planned.
+        </p>
+      <p>
+      
+         One who will attend  in our event will have to specify on how he/she tends to participate
+         either as a presenter or an audience and also has to specify the sessions to which he/she will attend,
+         without forgetting the number of days to which one will attend so as for the calculation of total cost can be done. 
+      
+      </p>
+      <p class="registernote"> NOTE: EVERYTHING IS DONE AUTOMATIC. AFTER FILLING THE REGISTRATION FORM ONE WILL KNOW HIS/HER TOTAL COSTS. </p>
+    </div>
+    <div >
+
+
+    <table class="registertable">
+        <tr>
+            <th class="top">Participant Type</th>
+            <th class="top">Sessions</th>
+            <th class="top">From</th>
+            <th class="top">To</th>
+            <th class="top">Cost (€)</th>
+        </tr>
+        <tr>
+            <td rowspan="4"><label></label>
+                <label>
+                    <input type="radio" name="participantType" value="15" id="radio1">
+                    Presenter-15€
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="participantType" value="20" id="radio2">
+                    Audiance-20€
+                </label>
+            </td>
+            <td><label>
+                    <input type="checkbox" name="values" value="17" id="checkbox1" onclick="updateTextbox(1)">Session 1
+                    - 17€
+                </label></td>
+            <td rowspan="4"> <label></label>
+                <input type="date" name="startDate">
+            </td>
+            <td rowspan="4"><input type="date" name="endDate"></td>
+            <td><input type="text" id="textbox1" readonly></td>
+        </tr>
+        <tr>
+            <td><label>
+                    <input type="checkbox" name="values" value="25" id="checkbox2" onclick="updateTextbox(2)"> Session 2 -
+                    25€
+                </label></td>
+            <td><input type="text" id="textbox2" readonly></td>
+
+        </tr>
+        <tr>
+            <td><label>
+                    <input type="checkbox" name="values" value="40" id="checkbox3" onclick="updateTextbox(3)">Session 3-
+                    40€
+                </label></td>
+            <td><input type="text" id="textbox3" readonly></td>
+
+        </tr>
+        <tr>
+            <td><label>
+                    <input type="checkbox" name="values" value="50" id="checkbox4" onclick="updateTextbox(4)"> Session 4-
+                    50€
+                </label></td>
+            <td><input type="text" id="textbox4" readonly></td>
+
+        </tr>
+        <tr>
+            <td colspan="2">Total Cost</td>
+            <td colspan="2"><button class="btnn" type="button" onclick="calculateCost()">Calculate</button>
+            </td>
+            <td>
+                <div id="result">0(€)</div>
+            </td>
+        </tr>
+
+    </table>
+
+   <script src="last.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,306 @@
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.navigationhome
+{
+
+    width: 100%;
+
+    font-size: 45px;
+
+}
+
+h1{
+
+    color:black;
+}
+
+
+.homebackground
+{
+    background-image: url(images02/tracktor.jpeg);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    
+    
+
+    color:white;
+
+    font-size: 23px;
+
+    font-weight: bold;
+
+
+
+}
+
+
+
+
+.homeheading
+{
+color:white;
+
+font-weight: bold;
+}
+
+
+
+.homecontent
+{
+
+    background: rgba(0, 128, 0, 0.3);
+    width:50%;
+  
+}
+
+
+.navigationabout
+{
+
+    width: 100%;
+    font-size:45px;
+
+
+
+}
+
+
+.aboutbody
+{
+   background-color:azure;
+
+}
+
+.aboutp1
+{
+
+    font-size:25px;
+   
+}
+
+.aboutsection1
+{
+    background-color:aliceblue;
+    width:100%;
+
+   font-size: 20px;
+
+  
+}
+
+.drone-image {
+  
+  
+
+    width:30%;
+    float:right;
+
+    width:250px;
+    height:250px;
+
+    vertical-align: text-bottom;
+}
+
+.aboutsection2
+{
+    background-color:aliceblue;
+    width:100%;
+
+   font-size: 20px;
+
+  
+}
+
+.greenhouse-image {
+  
+    width:50%;
+    float:right;
+
+    width:350px;
+    height:350px;
+
+    vertical-align: text-bottom;
+}
+
+.greenhouseprep-image {
+  
+    width:50%;
+    float:right;
+
+    width:370px;
+    height:350px;
+
+    vertical-align: text-bottom;
+}
+
+.aboutsection3
+{
+    background-color:aliceblue;
+    width:100%;
+
+   font-size: 20px;
+
+  
+}
+
+
+.tractor3-image {
+  
+    width:50%;
+    float:right;
+
+    width:480px;
+    height:315px;
+
+    vertical-align: text-bottom;
+}
+
+.aboutsection4
+{
+    background-color:aliceblue;
+    width:100%;
+
+   font-size: 20px;
+
+  
+}
+
+
+.cows1-image {
+  
+    width:50%;
+    float:right;
+
+    width:400px;
+    height:330px;
+
+    vertical-align: text-bottom;
+}
+
+
+.registernavigation
+{
+font-size: 45px;
+width:100%;
+
+}
+
+
+.registertable
+{
+    width:100%;
+border:1px solid black;
+border-collapse:collapse;
+height:250px;
+}
+
+.top,td{
+
+    border:1px solid black;
+    border-collapse:collapse;
+    background-color:rgba(29, 107, 120, 0.345);
+
+
+
+}
+
+.registerbody
+{
+    background-color:rgba(29, 107, 120, 0.345);
+
+
+
+}
+
+
+#textbox1,#textbox2,#textbox3,#textbox4
+{
+
+    background-color:rgba(29, 107, 120, 0.345);
+}
+
+input[ type="date"]
+{
+
+    background-color:rgba(29, 107, 120, 0.345);
+}
+
+.btnn
+{
+    background-color:rgba(29, 107, 120, 0.345);
+}
+.registerinstruction
+{
+    font-size: 22px;
+}
+.registernote
+{
+    font-weight: bold;
+
+
+}
+
+
+
+
+
+.navigationcontact
+{
+
+    width: 100%;
+    font-size: 45px;
+
+ 
+
+}
+
+
+
+
+.bodycontact
+{
+
+    background-color:rgb(150, 176, 133);
+
+
+}
+
+.assistancehelp
+{
+width:500px;
+height:50px;
+background-color:rgb(150, 176, 133);
+
+}
+
+.assistancehelp:focus
+{
+    background-color:rgb(150, 176, 133);
+
+}
+
+
+
+
+
+.directline {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    padding: 20px;
+    background-color: rgb(150, 176, 133);
+    border:rgb(150, 176, 133);
+    max-width: 490px; 
+    font-size:30px;
+  }
+
+
+  .sendmessage
+  {
+    background-color:rgb(150, 176, 133);
+  }
